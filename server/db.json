@@ -1,0 +1,25 @@
+{
+  "devices": [
+    {
+      "label": "IPhone 10",
+      "os": "ios",
+      "price": 1200,
+      "rate": 5,
+      "memory": 6000,
+      "desc": "This device is too expensive!!!!",
+      "id": 1
+    },
+    {
+      "label": "One Plus 63",
+      "os": "android",
+      "price": 600,
+      "rate": 4,
+      "memory": 7400,
+      "desc": "One Plus 5 is a flagship phone...",
+      "id": 2
+    }
+  ],
+  "login": {
+    "token": 123
+  }
+}
