@@ -14,6 +14,7 @@ import { DevicesService } from './services/devices.service';
       <hr>
       <devices-list
         [devices]="store.devices"
+        [active]="store.active"
         (editContent)="actions.setActiveHandler($event)"
         (delete)="actions.delete($event)"></devices-list>
   `

@@ -43,6 +43,7 @@ import { Device } from '../../model/device';
 })
 export class DevicesListComponent {
   @Input() devices: Device[];
+  @Input() active: Device;
   @Output() editContent: EventEmitter<Device>  = new EventEmitter();
   @Output() delete: EventEmitter<Device>  = new EventEmitter();
 
