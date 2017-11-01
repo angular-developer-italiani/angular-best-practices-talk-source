@@ -18,7 +18,7 @@ import { Device } from '../../model/device';
                          'fa-apple'  : d.os === 'ios'}"></i>
 
         <!--device name-->
-        <span>{{d.label}} - {{d.id}}</span>
+        <span>{{d.label}}</span>
 
         <div class="pull-right">
           <!--price -->

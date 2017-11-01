@@ -46,8 +46,9 @@ export class DevicesService {
     this.http.post(`${env.baseUrl}/devices`, device)
       .subscribe(res => {
         this.store.devices.push(res as Device);
-        this.reset();
-      })
+        this.store.active = res;
+        // this.reset();
+      });
   }
 
   /**

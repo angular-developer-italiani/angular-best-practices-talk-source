@@ -17,6 +17,12 @@
       "memory": 7400,
       "desc": "One Plus 5 is a flagship phone...",
       "id": 2
+    },
+    {
+      "label": "Nokia 3300",
+      "price": 49,
+      "os": "others",
+      "id": 4
     }
   ],
   "login": {
