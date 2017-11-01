@@ -19,7 +19,7 @@ npm run server
 You can now navigate the application to [http://localhost:4200](http://localhost:4200). 
 
 
-## FEATURES
+## CONCEPTS
 
 * Modular Angular application
 * Component Based Approach and stateless UI
